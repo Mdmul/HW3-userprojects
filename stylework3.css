@@ -1,0 +1,257 @@
+/* Сброс настроек */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.container { 
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 50px 0px;    
+}
+
+
+/* Высокие стандарты разработки */
+.standarts {
+    background: #F6F6F8;
+    display: flex;
+    flex-direction: column;
+}
+
+.standarts__body {
+    width: 1110px;
+    height: 490px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    }
+
+.standarts__header {
+    display: flex;
+    flex-direction: column;
+}
+
+.standarts__title {
+    width: 424px;
+    height: 88px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: #323232;
+    margin: 52px 0px 40px 0px;
+}
+
+.standarts__text {
+    width: 489px;
+    height: 117px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    }
+
+.standarts__link {
+    width: 202px;
+    height: 20px;
+    font-weight: 500;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;    
+    color: #4985FF;
+    margin-top: 30px;
+    }
+
+.standarts__link-info:visited {
+    color: #4985FF;
+}
+.standarts__image {
+    width: 500px;
+    height: 400px;
+    }
+.standarts__line{
+    width: 1110px;
+    height: 0px;
+    border: 1px solid #E0E0E0;
+   }
+
+
+/* 125 проектов */
+
+.number-projects{
+     background: #F6F6F8;
+     
+}
+.number__body {
+    width: 1110px;
+    height: 122px;
+    margin: 0px auto;     
+}
+
+.number__column {
+     display: flex;
+     justify-content: space-between;
+
+}
+
+.item-number {
+    width: 104px;
+    height: 67px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.item-number__icon {
+    flex: 0 1 50%;
+    width: 30px;
+    height: 27px;
+    
+}
+.item-number__title {
+    flex: 0 1 50%;
+    width: 54px;
+    height: 35px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 35px;
+    color: #000000;
+}
+.item-number__text {
+    flex: 0 1 100%;
+    width: 100px;
+    height: 15px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    font-family: Montserrat;
+    font-style: normal;
+    margin-top: 17px;
+}
+
+
+
+
+/* Наши проекты */
+
+.projects{
+    background: #F6F6F8;
+}
+.projects__body {
+    width: 1920px;
+    height: 776px;
+    background: #F6F6F8;
+}
+.projects__header {
+    width: 730px;
+    height: 130px;
+    margin: 0px auto 70px;
+}
+.projects__title {
+    width: 350px;
+    height: 35px;
+    margin: 0 auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000;
+}
+.projects__text {
+    width: 730px;
+    height: 41px;
+    margin: 50px auto 0px;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+}
+.projects__images {
+    display: flex;
+   justify-content: space-between;
+    width: 1110px;
+    height: 255px;
+   margin: 0 auto;      
+    
+}
+.projects__images-photo {
+    width: 255px;
+    height: 255px;
+   
+}
+.projects__button {
+    width: 200px;
+    height: 45px;
+    margin: 50px auto 130px;
+    
+}
+.projects_button-message {
+    width: 200px;
+    height: 45px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    border: none; 
+    
+}
