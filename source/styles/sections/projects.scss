@@ -1,0 +1,72 @@
+@import '../shared/index';
+
+/* Наши проекты */
+
+.projects{
+    background: $gray-background;
+}
+.projects__body {
+    
+}
+.projects__header {
+    max-width: 730px;
+    margin: 0px auto 70px;
+}
+.projects__title {
+    width: 350px;
+    height: 35px;
+    margin: 0 auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $title-fontsize;
+    line-height: 53px;
+    text-align: center;
+    color: #000000;
+}
+.projects__text {
+    width: 730px;
+    height: 41px;
+    margin: 50px auto 0px;
+    font-size: $paragraph-fontsize;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+}
+.projects__images {
+    display: flex;
+   justify-content: space-between;
+   width: 100%;    
+}
+
+.projects__images-photo {
+    width: 255px;
+    height: 255px;
+   
+}
+.projects__button {
+    width: 200px;
+    height: 45px;
+    margin: 50px auto 130px;
+    
+}
+.projects_button-message {
+    width: 200px;
+    height: 45px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: $paragraph-fontsize;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    background: $primary-color;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    border: none; 
+    
+}

@@ -1,0 +1,14 @@
+@import 'shared/index';
+@import 'reset';
+@import 'sections/index';
+
+html {
+  font-size: $default-rem;
+}
+
+.container { 
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 50px 0px;    
+}
+
