@@ -24,8 +24,7 @@
     color: #000000;
 }
 .projects__text {
-    width: 730px;
-    height: 41px;
+    max-width: 730px;
     margin: 50px auto 0px;
     font-size: $paragraph-fontsize;
     font-family: Montserrat;
@@ -53,10 +52,20 @@
  }
 
 .projects__images-photo {
-    width: 255px;
-    height: 255px;
-   
+    margin-right: 20px;
+    width: 1 0 25%;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    img {
+        width: 100%;
+        display: block;
+    }   
 }
+
+
 .projects__button {
     width: 200px;
     height: 45px;
