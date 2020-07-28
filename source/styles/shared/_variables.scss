@@ -1,0 +1,12 @@
+
+// colors
+$gray-background:#F6F6F8;
+$primary-color: #4985FF;
+
+//typography
+$default-rem: 16px;
+@function getRem($value){
+    @return #{$value / $default-rem}rem;
+}
+$title-fontsize: getRem(36px);
+$paragraph-fontsize: getRem(16px);

@@ -1,0 +1,77 @@
+@import '../shared/index';
+
+.video {
+   
+    height: 735px;
+    background: #E5E5E5;
+}
+.video__bk {
+    background-image: url(../../img/Rectanglevideo.png);
+    max-width: 100%;
+    height: 570px;
+    background-size: cover;
+    }
+    .container--line{
+        border-bottom: 1px solid #E0E0E0;
+        height: 632px;
+        max-width: 1100px;
+    }
+
+.video__body {
+}
+.video__header {
+    max-width: 444px;
+    height: 35px;
+    margin: 0 auto;
+}
+.video__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.video__text {
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.video__row {
+    margin: 130px auto -80px;
+    border: 1px solid gray;
+    max-width: 970px;
+    height: 430px;
+    background-image: url(../../img/Rectanglebutton.png);
+}
+
+.video__button {
+    margin: 165px auto;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    max-width: 300px;
+    height: 100px;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button__icon {
+    width: 60px;
+    height: 60px;
+    
+    margin-right: 21px;
+    border-radius: 50%;
+}
+.button__text {
+    
+}

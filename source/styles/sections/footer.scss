@@ -1,0 +1,47 @@
+@import '../shared/index';
+
+.footer {
+}
+
+.footer__body {
+    border-bottom: 1px solid #E0E0E0;
+    height: 338px;
+}
+.footer__head {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__column {
+    
+}
+.foter__info{
+    max-width: 247px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 20px 0px 35px;
+    color: #000000;
+}
+
+.footer__list {
+
+}
+.footer__link {
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    margin-bottom: 30px;
+
+}
+
+.footer__text {
+    margin: 40px auto 0px;
+    text-align: center;
+
+}
