@@ -47,6 +47,17 @@ color: #999999;
 .item-applications {
     display: flex;
     justify-content: center;
+   
+}
+@media screen and (max-width:769px){
+    .item-applications{
+     flex-wrap: wrap;
+    }
+} 
+@media screen and (max-width:420px){
+    .item-applications{
+     flex-direction: column;
+    }
 }
 
 .item-applications__about {
@@ -62,6 +73,9 @@ color: #999999;
     border: 1px solid #E0E0E0;
     box-sizing: border-box;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .about__blueborder {
@@ -72,12 +86,16 @@ color: #999999;
     box-sizing: border-box;
     border-radius: 50%;
     border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .about__image {
     margin: 25px;
     width: 40px;
     height: 40px;
     border: 1px solid blue;
+    
 }
 .about__text {
     margin: 45px 0px 0px 17px;
@@ -94,7 +112,7 @@ color: #000000;
 }
 
 .about__title {
-width: 222px;
+max-width: 222px;
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;

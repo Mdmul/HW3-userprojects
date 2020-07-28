@@ -4,7 +4,8 @@
 
 .projects{
     background: $gray-background;
-}
+   }
+   
 .projects__body {
     
 }
@@ -13,8 +14,6 @@
     margin: 0px auto 70px;
 }
 .projects__title {
-    width: 350px;
-    height: 35px;
     margin: 0 auto;
     font-family: Montserrat;
     font-style: normal;
@@ -41,6 +40,17 @@
    justify-content: space-between;
    width: 100%;    
 }
+
+@media screen and (max-width:769px){
+    .projects__images{
+        flex-wrap: wrap;
+    }
+ }
+ @media screen and (max-width:420px){
+    .projects__images{
+        flex-direction: column;
+    }
+ }
 
 .projects__images-photo {
     width: 255px;
